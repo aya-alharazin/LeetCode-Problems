@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0018-4sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0018-4sum) |
+| [0088-merge-sorted-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0283-move-zeroes) |
 | [0704-binary-search](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0704-binary-search) |
@@ -42,12 +43,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0018-4sum) |
+| [0088-merge-sorted-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0283-move-zeroes) |
 ## Sorting
 |  |
 | ------- |
 | [0018-4sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0018-4sum) |
+| [0088-merge-sorted-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0088-merge-sorted-array) |
 ## Memoization
 |  |
 | ------- |
