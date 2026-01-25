@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0018-4sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0018-4sum) |
 | [0189-rotate-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0189-rotate-array) |
+| [0704-binary-search](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -49,4 +50,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0509-fibonacci-number) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
