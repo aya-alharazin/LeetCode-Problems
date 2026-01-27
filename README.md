@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0018-4sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0018-4sum) |
+| [0041-first-missing-positive](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0041-first-missing-positive) |
 | [0088-merge-sorted-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0283-move-zeroes) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0001-two-sum) |
+| [0041-first-missing-positive](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0041-first-missing-positive) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 ## Math
