@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/0010-regular-expression-matching) |
+| [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Aya-Nabil11/LeetCode-Problems/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 ## Dynamic Programming
 |  |
 | ------- |
