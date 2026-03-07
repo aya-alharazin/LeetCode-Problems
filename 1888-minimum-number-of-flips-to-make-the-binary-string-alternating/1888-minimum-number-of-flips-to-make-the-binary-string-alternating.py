@@ -1,49 +1,43 @@
 class Solution:
     def minFlips(self, s: str) -> int:
-        n = len(s)
         whole_string = s + s
-
-        flip0 = 0   # mismatches with pattern 010101...
-        flip1 = 0   # mismatches with pattern 101010...
-
+        n = len(s)
+ 
+        start0 = 0
+        start1 = 0
         left = 0
-        result = float('inf')
+        lst = []
 
-        for right in range(len(whole_string)):
+        for index in range(len(whole_string)):
 
-            # expected characters
-            if right % 2 == 0:
-                expected0 = '0'
-                expected1 = '1'
-            else:
-                expected0 = '1'
-                expected1 = '0'
-
-            # add new character
-            if whole_string[right] != expected0:
-                flip0 += 1
-            if whole_string[right] != expected1:
-                flip1 += 1
-
-            # shrink window if it becomes larger than n
-            if right - left + 1 > n:
-
-                if left % 2 == 0:
-                    expected0 = '0'
-                    expected1 = '1'
+            # add current character
+            if index % 2 == 0:
+                if whole_string[index] == '1':
+                    start0 += 1
                 else:
-                    expected0 = '1'
-                    expected1 = '0'
+                    start1 += 1
+            else:
+                if whole_string[index] == '1':
+                    start1 += 1
+                else:
+                    start0 += 1
 
-                if whole_string[left] != expected0:
-                    flip0 -= 1
-                if whole_string[left] != expected1:
-                    flip1 -= 1
-
+            # remove old character if window > n
+            if index - left + 1 > n:
+                if left % 2 == 0:
+                    if whole_string[left] == '1':
+                        start0 -= 1
+                    else:
+                        start1 -= 1
+                else:
+                    if whole_string[left] == '1':
+                        start1 -= 1
+                    else:
+                        start0 -= 1
                 left += 1
 
-            # when window size = n → valid rotation
-            if right - left + 1 == n:
-                result = min(result, flip0, flip1)
+            # one full slide / rotation
+            if index - left + 1 == n:
+                lst.append(min(start0, start1))
 
-        return result
+        return min(lst)
